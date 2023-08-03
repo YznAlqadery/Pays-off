@@ -94,12 +94,11 @@ a:hover{
     padding: 5px;
   }
   .caption{
-    padding: 5px;
     margin: 0 10px;
   }
   .banner{
     top:5px;
-    left: 0;
+    left: 5px;
   }
   
 }
