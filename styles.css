@@ -34,14 +34,14 @@ h1{
   font-size: 40px;
 }
 .places{
-  width: 550px;
+  width: 800px;
   margin: 10px auto;
   position: relative;
 }
 .place-img{
   width: 100%;
   display: block;
-  height: 420px;
+  height: 600px;
   object-fit: cover;
 }
 .caption{
@@ -91,14 +91,13 @@ a:hover{
 @media screen and (max-width:550px){
   .places{
     width: 100%;
-    padding: 2px;
+  }
+  .place-img{
+    width: 100%;
+    height: 420px;
   }
   .caption{
     margin: 0 10px;
-  }
-  .banner{
-    top:5px;
-    left: 5px;
   }
   
 }
