@@ -91,7 +91,7 @@ a:hover{
 @media screen and (max-width:550px){
   .places{
     width: 100%;
-    padding: 5px;
+    padding: 2px;
   }
   .caption{
     margin: 0 10px;
