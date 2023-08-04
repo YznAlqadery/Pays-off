@@ -8,7 +8,7 @@ header{
   background: #282828;
   color: whitesmoke;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
 }
 ul{
   display: flex;
@@ -19,11 +19,12 @@ ul{
   gap: 14px;
 }
 .location-pin{
-  width: 25px;
+  width: 30px;
   cursor: pointer;
 }
 .hb-menu{
   width: 25px;
+  cursor: pointer;
 }
 .align-left{
   margin-right: auto;
@@ -37,6 +38,10 @@ h1{
   width: 800px;
   margin: 10px auto;
   position: relative;
+}
+.bold{
+  font-weight: 700;
+  text-decoration: underline;
 }
 .place-img{
   width: 100%;
@@ -93,11 +98,15 @@ a:hover{
     width: 100%;
   }
   .place-img{
-    width: 100%;
+    margin: 0 auto;
+    width: 95%;
     height: 420px;
   }
   .caption{
     margin: 0 10px;
+  }
+  .banner{
+    left:12px;
   }
   
 }
